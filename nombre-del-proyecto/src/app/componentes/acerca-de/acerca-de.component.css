@@ -1,0 +1,24 @@
+.row {
+    padding: 10px;
+}
+div {
+    background: #d2c2b0;
+    text-align: center;
+    box-sizing: inherit;
+}
+/** EDIT FOTO DE PERFIL **/
+
+
+#prof-ph {
+    position: relative;
+    display: block;
+    z-index: 1;
+    bottom: 50%;
+    border-radius: 100%;
+}
+/** EDIT NOMBRE **/
+#name {
+    font-weight: bold;
+    margin-top: 20%;
+
+}
