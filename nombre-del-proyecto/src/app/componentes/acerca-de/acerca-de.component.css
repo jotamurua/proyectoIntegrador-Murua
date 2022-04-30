@@ -8,17 +8,51 @@ div {
 }
 /** EDIT FOTO DE PERFIL **/
 
-
+@media (min-width: 576px) {
 #prof-ph {
     position: relative;
     display: block;
-    z-index: 1;
-    bottom: 50%;
+    bottom: 70%;
     border-radius: 100%;
+    border: 3px solid white;
+    left: 3%;
 }
+}
+@media (max-width: 576px) {
+    #prof-ph {
+        display: block;
+        width: 35%;
+        border-radius: 100%;
+        margin: auto;
+    }
+    }
 /** EDIT NOMBRE **/
-#name {
-    font-weight: bold;
-    margin-top: 20%;
 
+@media (min-width: 576px) {
+    #name {
+        font-weight: bold;
+        margin-top: 16%;
+
+    }
+#name_rank {
+    background: none;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    text-align: left;
+    padding: 0;
 }
+}
+@media (max-width: 576px) {
+    #name {
+        font-weight: bold;   
+    }
+    #name_rank {
+        background: none;
+        display: block;
+        position: relative;
+        text-align: center;
+        padding: 0;
+    }
+    }
