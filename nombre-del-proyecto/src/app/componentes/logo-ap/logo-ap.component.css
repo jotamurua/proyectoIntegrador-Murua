@@ -7,27 +7,26 @@
     width: 150px;
     
 }
-img {
-    width: 30px;
+i {
+    color:#d2c2b0;
+    font-size: 1.5em;
 }
 .redes {
 
 
     margin-right: 0.5em;
 }
-.redes img {
+.redes i {
     margin: 0.15em;
 }
 /* para la vista de celular */
 @media (max-width: 575px){
-.container {
-    flex-direction: column;
-}
+
 .redes {
     display: flex;
     align-items: center;
 }
-.redes img {
+.redes i {
     margin: 0.2em
 }
 }

@@ -1,10 +1,18 @@
 p {
+    display:inline;
+    font-size: 0.8em;
     color: grey;
-    font-size: 14px;
-    text-align: center;
-    
 }
-.row {
-    align-items: center;
-    align-content: center;
+i {
+    color:grey;
+    font-size: 1em;
+    margin: 0.4em;
+    float:right;
+}
+div {
+    display:inline;
+}
+.container {
+    display:block;
+    justify-content: space-between;
 }
