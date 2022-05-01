@@ -1,12 +1,15 @@
 div{
     background: #1f1f24;
 }
-#portada {
+.row {
+    text-align: center;
+}
+/**#portada {
     display: block;
     margin: 0px 9em;
     width: 400px;
 }
-
+*/
 @media (max-width: 576px){
     #portada {
         display:block;
