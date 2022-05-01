@@ -14,7 +14,7 @@ div {
     display: block;
     bottom: 70%;
     border-radius: 100%;
-    border: 3px solid white;
+    border: 2px solid white;
     left: 3%;
 }
 }
@@ -24,6 +24,7 @@ div {
         width: 35%;
         border-radius: 100%;
         margin: auto;
+        border: 1px solid white;
     }
     }
 /** EDIT NOMBRE **/
@@ -56,3 +57,8 @@ div {
         padding: 0;
     }
     }
+#about-text  {
+    float: right;
+    padding: 20px;
+    text-align: right;
+}
