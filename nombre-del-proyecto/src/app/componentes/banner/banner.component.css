@@ -1,8 +1,38 @@
 div{
     background: #1f1f24;
 }
-img {
+#portada {
     display: block;
-    margin: 0px auto;
+    margin: 0px 9em;
     width: 400px;
 }
+
+@media (max-width: 576px){
+    #portada {
+        display:block;
+       margin:0px auto;
+       width: 350px; 
+    }
+}
+/** EDIT FOTO DE PERFIL **/
+
+@media (min-width: 576px) {
+    #prof-ph {
+        position:relative;
+        z-index: 1;
+        display: block;
+        top: 25%;
+        border-radius: 100%;
+        border: 2px solid white;
+        left: 3%;
+    }
+    }
+    @media (max-width: 762px) {
+        #prof-ph {
+            display: none;
+            width: 35%;
+            border-radius: 100%;
+            margin: auto;
+            border: 1px solid white;
+        }
+        }

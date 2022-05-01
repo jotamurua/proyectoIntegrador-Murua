@@ -3,62 +3,40 @@
 }
 div {
     background: #d2c2b0;
-    text-align: center;
-    box-sizing: inherit;
 }
+
+/** EDIT NOMBRE **/
+#name_rank {
+padding-top: 1.3em;
+margin: 0px;
+line-height: 1;
+}
+
 /** EDIT FOTO DE PERFIL **/
 
 @media (min-width: 576px) {
-#prof-ph {
-    position: relative;
-    display: block;
-    bottom: 70%;
-    border-radius: 100%;
-    border: 2px solid white;
-    left: 3%;
-}
-}
-@media (max-width: 576px) {
     #prof-ph {
-        display: block;
-        width: 35%;
-        border-radius: 100%;
-        margin: auto;
-        border: 1px solid white;
+       display: none;
     }
     }
-/** EDIT NOMBRE **/
+    @media (max-width: 576px) {
+        #foto {
 
-@media (min-width: 576px) {
-    #name {
-        font-weight: bold;
-        margin-top: 16%;
-
-    }
-#name_rank {
-    background: none;
-    display: block;
-    position: absolute;
-    top: 30%;
-    left: 3%;
-    text-align: left;
-    padding: 0;
-}
-}
+            box-sizing: content-box;
+        }
+        #prof-ph {
+            display:none;
+            box-sizing: content-box;
+            width: 35%;
+            border-radius: 100%;
+            margin: auto;
+            border: 1px solid white;
+        }
+        }
+/** EDIT NAME RESPONSIVE **/
 @media (max-width: 576px) {
-    #name {
-        font-weight: bold;   
+    .container{
+        display: flex;
+        justify-content: space-between;
     }
-    #name_rank {
-        background: none;
-        display: block;
-        position: relative;
-        text-align: center;
-        padding: 0;
-    }
-    }
-#about-text  {
-    float: right;
-    padding: 20px;
-    text-align: right;
 }
