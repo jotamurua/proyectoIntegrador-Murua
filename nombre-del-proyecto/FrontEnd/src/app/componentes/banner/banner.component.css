@@ -1,4 +1,4 @@
-div{
+/* div{
     background: #1f1f24;
 }
 .row {
@@ -10,15 +10,16 @@ div{
     width: 400px;
 }
 */
+/*
 @media (max-width: 576px){
     #portada {
         display:block;
        margin:0px auto;
-       width: 350px; 
+       width: 350px;
     }
 }
 /** EDIT FOTO DE PERFIL **/
-
+/*
 @media (min-width: 576px) {
     #prof-ph {
         position:relative;
@@ -39,3 +40,21 @@ div{
             border: 1px solid white;
         }
         }
+*/
+#prof-ph{
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.col-lg-2 {
+  padding: 1em;
+}
+#portada {
+  display: block;
+  padding: 0px;
+  margin: 0px auto;
+}
+@media (max-width: 800px) {
+  #prof-ph {
+    display:none;
+  }
+}
