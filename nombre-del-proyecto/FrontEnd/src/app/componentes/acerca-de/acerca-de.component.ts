@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { PortfolioService } from 'src/app/servicios/portfolio.service';
 @Component({
   selector: 'app-acerca-de',
   templateUrl: './acerca-de.component.html',
@@ -10,6 +10,7 @@ export class AcercaDeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

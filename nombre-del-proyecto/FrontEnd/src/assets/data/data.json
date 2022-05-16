@@ -1,0 +1,32 @@
+{
+    "name": "Joel Murua",
+    "backImage": "../../../assets/logo horizontal.png",
+    "image": "../../../assets/self.jpg",
+    "position": "Full Stack Dev Jr",
+    "ubication": "Santa Fe, Argentina.",
+    "about": "lorem",
+    "experience": [{
+      "title": "1 work",
+      "years": "from-to",
+      "description": "lorem"
+    }],
+    "education": [{
+      "career": "1 career",
+      "years-start": "from-to",
+      "years-finish": "to",
+      "description": "lorem"
+    },
+    {
+      "career": "2 career",
+      "years-start": "from-to",
+      "years-finish": "to",
+      "description": "lorem"
+    },
+    {
+      "career": "3 career",
+      "years-start": "from-to",
+      "years-finish": "to",
+      "description": "lorem"
+    }]
+
+}

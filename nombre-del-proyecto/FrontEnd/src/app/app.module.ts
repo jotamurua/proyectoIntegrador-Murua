@@ -14,7 +14,8 @@ import { SkillsComponent } from './componentes/skills/skills.component';
 import { ProyectsComponent } from './componentes/proyects/proyects.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { AboutComponent } from './componentes/about/about.component';
-
+import { PortfolioService } from './servicios/portfolio.service';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -33,7 +34,9 @@ import { AboutComponent } from './componentes/about/about.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgCircleProgressModule.forRoot({})
+
   ],
   providers: [],
   bootstrap: [AppComponent]

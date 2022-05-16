@@ -3,8 +3,8 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-11">
         <ul>
-            <li>
-                <h1>1 career</h1> - <h3>years</h3>
+            <li *ngFor="let education of educacionList">
+                <h1>{{education.career}}</h1> - <h3>years</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fuga obcaecati totam aut cum voluptas. Cupiditate quisquam laudantium accusamus incidunt.</p>
             </li>
         </ul>
