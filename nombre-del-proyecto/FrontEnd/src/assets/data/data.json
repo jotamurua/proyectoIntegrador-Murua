@@ -4,29 +4,55 @@
     "image": "../../../assets/self.jpg",
     "position": "Full Stack Dev Jr",
     "ubication": "Santa Fe, Argentina.",
-    "about": "lorem",
+    "about": "Programmin student at Argentina Programa #YoProgramo. Check my GitHub! https://github.com/jotamurua?tab=repositories",
     "experience": [{
       "title": "1 work",
-      "years": "from-to",
+      "yearsfrom": "from-to",
+      "yearsto": "to",
       "description": "lorem"
     }],
     "education": [{
       "career": "1 career",
-      "years-start": "from-to",
-      "years-finish": "to",
+      "yearsfrom": "from-to",
+      "yearsto": "to",
       "description": "lorem"
     },
     {
       "career": "2 career",
-      "years-start": "from-to",
-      "years-finish": "to",
+      "yearsfrom": "from-to",
+      "yearsto": "to",
       "description": "lorem"
     },
     {
       "career": "3 career",
-      "years-start": "from-to",
-      "years-finish": "to",
+      "yearsfrom": "from-to",
+      "yearsto": "to",
       "description": "lorem"
+    }],
+    "skills": [{
+      "skill": "HTML",
+      "progress": "85%"
+    },
+    {
+      "skill": "CSS3",
+      "progress": "75%"
+    },
+    {
+      "skill": "BOOTSTRAP",
+      "progress": "80%"
+    },
+    {
+      "skill": "Angular",
+      "progress": "90%"
+    },
+    {
+      "skill": "JAVA",
+      "progress": "70%"
+    }],
+    "projects": [{
+      "title": "PokeDex",
+      "description": "Application that consumes the APIREST from PokeApi and show some images and stats of a selected Pokemon",
+      "projectimg": "#"
     }]
 
 }

@@ -3,9 +3,9 @@
     <div class="col-lg-1"></div>
     <div class="col-lg-11">
         <ul>
-            <li>
-                <h1>1 work</h1> - <h3>years</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fuga obcaecati totam aut cum voluptas. Cupiditate quisquam laudantium accusamus incidunt.</p>
+            <li *ngFor="let experience of experienceList">
+                <h1>{{experience.title}}</h1> - <h3>{{experience.yearsfrom}} to {{experience.yearsto}}</h3>
+                <p>{{experience.description}}</p>
             </li>
         </ul>
 

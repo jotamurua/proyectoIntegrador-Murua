@@ -4,8 +4,8 @@
     <div class="col-lg-11">
         <ul>
             <li *ngFor="let education of educacionList">
-                <h1>{{education.career}}</h1> - <h3>years</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fuga obcaecati totam aut cum voluptas. Cupiditate quisquam laudantium accusamus incidunt.</p>
+                <h1>{{education.career}}</h1> - <h3>{{education.yearsfrom}} to {{education.yearsto}}</h3>
+                <p>{{education.description}}</p>
             </li>
         </ul>
 
