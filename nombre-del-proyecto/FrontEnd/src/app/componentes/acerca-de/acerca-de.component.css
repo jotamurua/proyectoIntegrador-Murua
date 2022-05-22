@@ -40,3 +40,7 @@ line-height: 1;
         justify-content: space-between;
     }
 }
+.btn-edit {
+
+  float: right;
+}

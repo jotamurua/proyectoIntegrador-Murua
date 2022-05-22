@@ -11,3 +11,6 @@ h1, h3 {
     padding: 5px;
 
 }
+.row i {
+  float: right;
+}
