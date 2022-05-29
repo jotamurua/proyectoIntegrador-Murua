@@ -104,13 +104,16 @@
   left: 25%;
 }
 **/
+*{
+  background-color: #1f1f24;
+}
 .grid {
   display: grid;
   grid-template-columns: 33% 66%;
 }
 
 .profile figure {
-  width:50%;
+  width:40%;
   transition: all 500ms ease-out;
   z-index: -1;
   overflow: hidden;
@@ -132,7 +135,4 @@
   border: none;
   background-color: #1f1f24;
   color: #1f1f24;
-}
-.banner{
-
 }
