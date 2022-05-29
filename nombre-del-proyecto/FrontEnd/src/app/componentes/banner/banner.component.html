@@ -25,17 +25,17 @@
 <div class="grid">
   <div class="profile">
     <figure>
-      <img [src]="miPortfolio.image" alt="perfil" class="img-fluid" id="foto de perfil">
-      <button type="button" class="btn btn-outline-light btn-edit"><i class="fa-solid fa-pencil"></i></button>
+ <button class="invisible-button"><img [src]="miPortfolio.image" alt="perfil" class="img-fluid profile-photo" id="foto-de-perfil"></button>
+
     </figure>
   </div>
   <div class="banner">
     <figure>
-      <img [src]="miPortfolio.backImage" class="img-fluid" id="portada">
+      <button class="invisible-button"><img [src]="miPortfolio.backImage" class="img-fluid" id="portada"></button>
 
-      <div class="cont-btn">
+      <!--<div class="cont-btn">
         <button type="button" class="btn btn-outline-light btn-edit"><i class="fa-solid fa-pencil"></i></button>
-      </div>
+      </div>-->
     </figure>
   </div>
 </div>

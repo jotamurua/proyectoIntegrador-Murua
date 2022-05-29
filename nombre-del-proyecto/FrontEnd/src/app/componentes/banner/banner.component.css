@@ -106,39 +106,33 @@
 **/
 .grid {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 33% 66%;
 }
-.profile figure img{
+
+.profile figure {
   width:50%;
-  border-radius: 50%;
-  border: 2px solid white;
   transition: all 500ms ease-out;
   z-index: -1;
+  overflow: hidden;
+
 }
-.profile figure button {
-  position: relative;
-  transition: all 500ms ease-out;
-  opacity: 1;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  z-index: 1;
+.profile-photo{
+  width: 2000em;
+  border-radius: 50%;
+  border: solid 2px white;
 }
 .profile {
-
     display:inline-block;
-    position:relative;
-
-}
-.profile button {
-
-border-radius: 50%;
-color:white;
-text-transform:uppercase;
-top: 100%;
-right: 50%;
+    overflow: hidden;
 }
 .profile button:hover > i {
   color: black;
 }
+.invisible-button{
+  border: none;
+  background-color: #1f1f24;
+  color: #1f1f24;
+}
+.banner{
 
+}
