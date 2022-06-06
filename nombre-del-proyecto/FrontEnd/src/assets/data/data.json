@@ -55,7 +55,7 @@
       "projectimg": "../../../assets/pokedex.png"
     }],
     "colors": [{
-      "backgroundcolor1": "#1f1f24",
+      "backgroundcolor1": "red",
       "bockgroundcolor2": "#d2c2b0"
     }
     ]
